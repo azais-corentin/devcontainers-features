@@ -16,7 +16,7 @@ jobs:
           - hello
           - llvm
         baseImage:
-          - debian:latest
+          - gcc:latest
     steps:
       - uses: actions/checkout@v3
 
