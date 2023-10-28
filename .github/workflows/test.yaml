@@ -15,7 +15,7 @@ jobs:
         features:
           - hello
         baseImage:
-          - gcc:latest
+          - debian:latest
     steps:
       - uses: actions/checkout@v3
 
