@@ -1,0 +1,23 @@
+{
+    "name": "Arm GNU Toolchain",
+    "id": "arm-gnu-toolchain",
+    "version": "1.0.0",
+    "description": "Installs Arm GNU Toolchain using official .tar.xz",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "12.3.rel1",
+                "12.2.mpacbti-rel1",
+                "12.2.rel1",
+                "12.2.mpacbti-bet1",
+                "11.3.rel1"
+            ],
+            "default": "12.3.rel1",
+            "description": "Select a specific Arm GNU Toolchain version"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
