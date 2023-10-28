@@ -15,6 +15,7 @@ jobs:
         features:
           - hello
           - llvm
+          - cmake
         baseImage:
           - gcc:latest
     steps:
