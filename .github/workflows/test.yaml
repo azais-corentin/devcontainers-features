@@ -16,6 +16,7 @@ jobs:
           - hello
           - llvm
           - cmake
+          - mold
         baseImage:
           - gcc:latest
     steps:
