@@ -29,7 +29,8 @@ mkdir -p /opt/cmake
 /tmp/cmake-install.sh --skip-license --prefix=/opt/cmake
 
 # Add to /usr/bin
-ln -s /opt/cmake/bin/cmake /usr/bin/cmake
+mkdir -p /usr/bin
+export PATH=${PATH}:/opt/cmake/bin/
 
 # Cleanup
 rm /tmp/cmake-install.sh
