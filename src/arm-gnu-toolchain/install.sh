@@ -24,6 +24,7 @@ esac
 
 # Install Arm GNU Toolchain
 mkdir -p /tmp/arm-gnu-toolchain
+cd /tmp/arm-gnu-toolchain
 apt-get -qq update
 apt -qqy --no-install-recommends install python3 python3-pip libncursesw5
 wget -qP /tmp/arm-gnu-toolchain --show-progress "https://developer.arm.com/-/media/Files/downloads/gnu/${ARM_GNU_TOOLCHAIN_VERSION}/binrel/arm-gnu-toolchain-${ARM_GNU_TOOLCHAIN_VERSION}-x86_64-arm-none-eabi.tar.xz"
