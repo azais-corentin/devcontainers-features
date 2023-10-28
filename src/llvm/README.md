@@ -1,15 +1,13 @@
 
-# Hello, World! (hello)
+# LLVM (llvm)
 
-A hello world feature
+Installs LLVM via APT packages
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/hello:1": {
-        "version": "latest"
-    }
+    "ghcr.io/azais-corentin/devcontainers-features/llvm:1": {}
 }
 ```
 
@@ -17,10 +15,10 @@ A hello world feature
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
+| version | Select a specific LLVM version | string | 17 |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/hello/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/azais-corentin/devcontainers-features/blob/main/src/llvm/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
