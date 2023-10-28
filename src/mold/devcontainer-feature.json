@@ -1,7 +1,7 @@
 {
     "name": "Mold",
     "id": "mold",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Installs Mold from sources",
     "options": {
         "version": {

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo "Activating feature 'llvm'"
 
 LLVM_VERSION=${VERSION:-undefined}
@@ -10,6 +10,7 @@ apt-get -qq update
 apt-get -qqy install -t llvm-toolchain-bookworm-${LLVM_VERSION} clang-${LLVM_VERSION} clangd-${LLVM_VERSION} clang-tidy-${LLVM_VERSION} clang-format-${LLVM_VERSION} lld-${LLVM_VERSION}
 
 # Cleanup
+apt-get -qqy autoclean
 apt-get -qqy autoremove
 apt-get -qqy clean
 rm -rf /var/lib/apt/lists/*
