@@ -30,8 +30,7 @@ chmod u+x /tmp/cmake-install.sh
 mkdir -p /opt/cmake
 /tmp/cmake-install.sh --skip-license --prefix=/opt/cmake
 
-# Add to bashrc/zshrc files
-ln -s /opt/cmake/bin/cmake /usr/bin/cmake
+# Add to /usr/local/bin
 ln -s /opt/cmake/bin/cmake /usr/local/bin/cmake
 
 # Cleanup
