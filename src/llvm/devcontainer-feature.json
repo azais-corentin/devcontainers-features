@@ -1,0 +1,27 @@
+{
+    "name": "LLVM",
+    "id": "llvm",
+    "version": "1.0.0",
+    "description": "Installs LLVM via APT packages",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17"
+            ],
+            "default": "17",
+            "description": "Select a specific LLVM version"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
