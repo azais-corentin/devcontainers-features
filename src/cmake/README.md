@@ -1,15 +1,13 @@
 
-# Hello, World! (hello)
+# CMake (cmake)
 
-A hello world feature
+Installs CMake via official installer
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/hello:1": {
-        "version": "latest"
-    }
+    "ghcr.io/azais-corentin/devcontainers-features/cmake:1": {}
 }
 ```
 
@@ -17,10 +15,10 @@ A hello world feature
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
+| version | Select a specific CMake version | string | 3.27.7 |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/hello/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/azais-corentin/devcontainers-features/blob/main/src/cmake/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
