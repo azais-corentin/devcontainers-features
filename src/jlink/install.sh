@@ -24,7 +24,7 @@ echo "Installing JLink version ${JLINK_VERSION_STRING}"
 mkdir -p /tmp/jlink
 wget --show-progress -qO /tmp/jlink/JLink_Linux_x86_64.tgz "https://www.segger.com/downloads/jlink/JLink_Linux${JLINK_VERSION_STRING}_x86_64.tgz" \
      --post-data "accept_license_agreement=accepted&submit=Download+software"
-tar -xvzf *.tgz -C /opt
+tar -xvzf /tmp/jlink/*.tgz -C /opt
 
 # Cleanup
 rm -rf /tmp/jlink
