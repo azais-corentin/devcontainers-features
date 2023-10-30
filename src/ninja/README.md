@@ -1,13 +1,13 @@
 
-# Mold (mold)
+# Ninja (ninja)
 
-Installs Mold from sources
+Installs Ninja from official git releases
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/azais-corentin/devcontainers-features/mold:1": {}
+    "ghcr.io/azais-corentin/devcontainers-features/ninja:1": {}
 }
 ```
 
@@ -15,10 +15,10 @@ Installs Mold from sources
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select a specific Mold version | string | 2.3.1 |
+| version | Select a specific Ninja version | string | 1.11.1 |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/azais-corentin/devcontainers-features/blob/main/src/mold/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/azais-corentin/devcontainers-features/blob/main/src/ninja/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
