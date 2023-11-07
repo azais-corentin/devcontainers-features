@@ -1,0 +1,23 @@
+{
+    "name": "vcpkg",
+    "id": "vcpkg",
+    "version": "1.0.0",
+    "description": "Installs vcpkg from git",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Select a specific vcpkg version tag or latest"
+        },
+        "packages": {
+            "type": "string",
+            "default": "",
+            "description": "Select a specific vcpkg version tag or latest"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/git",
+        "ghcr.io/azais-corentin/devcontainers-features/cmake"
+    ]
+}
