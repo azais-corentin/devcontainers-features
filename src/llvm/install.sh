@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 echo "Activating feature 'llvm'"
 
 LLVM_VERSION=${VERSION:-undefined}
