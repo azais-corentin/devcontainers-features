@@ -15,9 +15,7 @@ Installs LLVM via APT packages
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select a specific LLVM version | string | 17 |
-
-
+| version | Select a specific LLVM version or use latest (default) | string | latest |
 
 ## Installation prefix
 
@@ -27,7 +25,7 @@ For LLVM 17, you can access clang with command `clang-17`.
 If you would like to bypass this installation prefix,
 you can use the following command (adjust `17` to whatever you installed)
 ```
-for f in /usr/lib/llvm-17/bin/*; do ln -sf "$f" /usr/bin; done && \
+for f in /usr/lib/llvm-17/bin/*; do ln -sf "$f" /usr/bin; done
 ```
 
 ---
