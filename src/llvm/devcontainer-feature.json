@@ -1,7 +1,7 @@
 {
     "name": "LLVM",
     "id": "llvm",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Installs LLVM via APT packages",
     "options": {
         "version": {
@@ -15,10 +15,11 @@
                 "14",
                 "15",
                 "16",
-                "17"
+                "17",
+                "latest"
             ],
-            "default": "17",
-            "description": "Select a specific LLVM version"
+            "default": "latest",
+            "description": "Select a specific LLVM version or use latest (default)"
         }
     },
     "installsAfter": [
