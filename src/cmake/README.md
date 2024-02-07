@@ -15,7 +15,7 @@ Installs CMake via official installer
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select a specific CMake version | string | 3.27.7 |
+| version | Select a specific CMake version | string | 3.28.3 |
 
 
 
