@@ -7,6 +7,8 @@ LLVM_VERSION=${VERSION:-undefined}
 
 # Install LLVM
 if [[ "${LLVM_VERSION}" == "latest" ]]; then
+    apt-get -qq update
+    apt-get -qqy install lsb-release wget software-properties-common gnupg
     bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)"
 else
     echo "deb https://apt.llvm.org/bookworm llvm-toolchain-bookworm-${LLVM_VERSION} main" > /etc/apt/sources.list.d/llvm.list
