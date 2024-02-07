@@ -1,12 +1,12 @@
 {
     "name": "CMake",
     "id": "cmake",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Installs CMake via official installer",
     "options": {
         "version": {
             "type": "string",
-            "default": "3.27.7",
+            "default": "3.28.3",
             "description": "Select a specific CMake version"
         }
     },
