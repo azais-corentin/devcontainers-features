@@ -7,13 +7,14 @@
         "version": {
             "type": "string",
             "enum": [
+                "13.2.rel1",
                 "12.3.rel1",
                 "12.2.mpacbti-rel1",
                 "12.2.rel1",
                 "12.2.mpacbti-bet1",
                 "11.3.rel1"
             ],
-            "default": "12.3.rel1",
+            "default": "13.2.rel1",
             "description": "Select a specific Arm GNU Toolchain version"
         }
     },
