@@ -1,7 +1,7 @@
 {
     "name": "Arm GNU Toolchain",
     "id": "arm-gnu-toolchain",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Installs Arm GNU Toolchain using official .tar.xz",
     "options": {
         "version": {
