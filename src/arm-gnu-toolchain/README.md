@@ -15,7 +15,7 @@ Installs Arm GNU Toolchain using official .tar.xz
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select a specific Arm GNU Toolchain version | string | 12.3.rel1 |
+| version | Select a specific Arm GNU Toolchain version | string | 13.2.rel1 |
 
 
 
