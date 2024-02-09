@@ -15,7 +15,7 @@ Installs Mold from sources
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select a specific Mold version | string | 2.3.1 |
+| version | Select a specific Mold version | string | 2.4.0 |
 
 
 
