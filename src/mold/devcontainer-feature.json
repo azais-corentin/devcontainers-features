@@ -1,12 +1,12 @@
 {
     "name": "Mold",
     "id": "mold",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Installs Mold from sources",
     "options": {
         "version": {
             "type": "string",
-            "default": "2.3.1",
+            "default": "2.4.0",
             "description": "Select a specific Mold version"
         }
     },
