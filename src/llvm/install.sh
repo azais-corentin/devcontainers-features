@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 echo "Activating feature 'llvm'"
 
@@ -14,7 +13,9 @@ chmod +x /tmp/llvm.sh
 
 if [[ "${LLVM_VERSION}" == "latest" ]]; then
     /tmp/llvm.sh all
+    /tmp/llvm.sh all
 else
+    /tmp/llvm.sh ${LLVM_VERSION} all
     /tmp/llvm.sh ${LLVM_VERSION} all
 fi
 
