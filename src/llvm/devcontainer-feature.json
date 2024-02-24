@@ -2,7 +2,7 @@
     "name": "LLVM",
     "id": "llvm",
     "version": "1.0.6",
-    "description": "Installs LLVM via APT packages",
+    "description": "Installs LLVM using the automatic installation script",
     "options": {
         "version": {
             "type": "string",
