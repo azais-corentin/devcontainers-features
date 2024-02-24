@@ -1,7 +1,7 @@
 {
     "name": "LLVM",
     "id": "llvm",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Installs LLVM using the automatic installation script",
     "options": {
         "version": {
